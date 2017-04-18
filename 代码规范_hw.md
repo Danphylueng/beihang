@@ -474,15 +474,19 @@ XXX -需要改进的功能
 ![图片描述](assignment.png)
 # 7 空行
 适当的在程序中使用空行，可以减少代码的依赖性和增加代码的可读性，通常以段来空行，类似于文章中的分段。
->范例：
+
+范例：
+
 ```cpp
 example：codeparagraphing
 #define LOWER 0
 #define UPPER 300
-#define STEP 20
+#define STEP 2
+
 main() /* Fahrenheit-Celsius table */
 {
 	int fahr;
+
 	for(fahr = LOWER;fahr <= UPPER;fahr = fahr + STEP){
 		pritf("%4d %6.1f\n",fahr, (5.0/9.0)*(fahr -32));
 	}
